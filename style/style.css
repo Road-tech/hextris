@@ -18,6 +18,26 @@
 	font-family:Exo;
 
 }
+#langBtn {
+	position:absolute;
+	top:20px;
+	right:20px;
+	padding:8px 16px;
+	background:rgba(255,255,255,0.2);
+	border:1px solid rgba(255,255,255,0.4);
+	border-radius:20px;
+	color:#fff;
+	font-family:Exo;
+	font-size:14px;
+	cursor:pointer;
+	outline:none;
+	transition:all 0.3s ease;
+	z-index:1000;
+}
+#langBtn:hover {
+	background:rgba(255,255,255,0.3);
+	border-color:rgba(255,255,255,0.6);
+}
 #container {
 	color:#232323;
 	position:absolute;
@@ -400,11 +420,11 @@ body {
 	padding:0;
 	bottom:15px;
 	position:absolute;
-	left:calc(50% - 124px);
-	transform:translate(-50%, 0%);
-	-webkit-transform:translate(-50%, 0%);
-	-moz-transform:translate(-50%, 0%);
-	-ms-transform:translate(-50%, 0%);
+	left:50%;
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
 	margin-bottom:-3.5px;
 }
 
