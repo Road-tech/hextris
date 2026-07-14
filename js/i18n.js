@@ -7,7 +7,15 @@ var i18n = {
             'GAME OVER': 'GAME OVER',
             'HIGH SCORES': 'HIGH SCORES',
             'HOW TO PLAY': 'HOW TO PLAY',
-            'instructions': "<p>The goal of Hextris is to stop blocks from leaving the inside of the outer gray hexagon.</p><p>{arrowHint} to rotate the Hexagon.{speedHint}</p><p>Clear blocks and get points by making 3 or more blocks of the same color touch.</p><p>Time left before your combo streak disappears is indicated by <span style='color:#f1c40f;'>the</span> <span style='color:#e74c3c'>colored</span> <span style='color:#3498db'>lines</span> <span style='color:#2ecc71'>on</span> the outer hexagon</p>"
+            'instructions': "<p>The goal of Hextris is to stop blocks from leaving the inside of the outer gray hexagon.</p><p>{arrowHint} to rotate the Hexagon.{speedHint}</p><p>Clear blocks and get points by making 3 or more blocks of the same color touch.</p><p>Time left before your combo streak disappears is indicated by <span style='color:#f1c40f;'>the</span> <span style='color:#e74c3c'>colored</span> <span style='color:#3498db'>lines</span> <span style='color:#2ecc71'>on</span> the outer hexagon</p>",
+            'Game Paused': 'Game Paused',
+            'Press enter to start': 'Press enter to start',
+            'Tap the screen left and right': 'Tap the screen\'s left and right',
+            'sides to rotate': 'sides to rotate the hexagon',
+            'Use arrow keys': 'Use the right and left arrow keys',
+            'to rotate': 'to rotate the hexagon',
+            'Match to score': 'Match 3+ blocks to score!',
+            'Play!': 'Play!'
         },
         zh: {
             name: '中文',
@@ -15,7 +23,15 @@ var i18n = {
             'GAME OVER': '游戏结束',
             'HIGH SCORES': '排行榜',
             'HOW TO PLAY': '游戏说明',
-            'instructions': "<p>目标是阻止方块离开灰色六边形区域。</p><p>{arrowHint}旋转六边形。{speedHint}</p><p>让3个或更多相同颜色的方块相邻即可消除得分。</p><p>连击剩余时间由六边形外圈的<span style='color:#f1c40f;'>彩</span><span style='color:#e74c3c'>色</span><span style='color:#3498db'>线</span><span style='color:#2ecc71'>条</span>表示</p>"
+            'instructions': "<p>目标是阻止方块离开灰色六边形区域。</p><p>{arrowHint}旋转六边形。{speedHint}</p><p>让3个或更多相同颜色的方块相邻即可消除得分。</p><p>连击剩余时间由六边形外圈的<span style='color:#f1c40f;'>彩</span><span style='color:#e74c3c'>色</span><span style='color:#3498db'>线</span><span style='color:#2ecc71'>条</span>表示</p>",
+            'Game Paused': '游戏暂停',
+            'Press enter to start': '按回车键开始',
+            'Tap the screen left and right': '点击屏幕左侧和右侧',
+            'sides to rotate': '旋转六边形',
+            'Use arrow keys': '使用左右方向键',
+            'to rotate': '旋转六边形',
+            'Match to score': '匹配3个或更多方块得分！',
+            'Play!': '开始游戏！'
         }
     },
     t: function(key) {
